@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket         = "remote-state-project-annuru-dev" # Replace with your bucket name
-    key            = "roboshop-dev-sg-rules"       
+    key            = "terraform-eks-sg-rules"       
     region         = "us-east-1"                        
     encrypt        = true
     use_lockfile = true                               
